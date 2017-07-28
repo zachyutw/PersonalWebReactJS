@@ -4,9 +4,7 @@
 import React from 'react';
 
 export class InputH1 extends React.Component {
-    componentWillMount(){
-        this.state.userInput = 'default';
-    }
+
     constructor(props)
     {
         super(props);
@@ -16,11 +14,15 @@ export class InputH1 extends React.Component {
         }
         this.handleUserInput = this.handleUserInput.bind(this);
     }
+    /**
+    componentWillMount(){
+        this.state.userInput = 'default';
+    }
     handleUserInput(e)
     {
         this.setState({userInput:e.target.value});
     }
-
+    **/
     render() {
         return (
             <div>
