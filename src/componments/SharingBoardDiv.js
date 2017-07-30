@@ -22,6 +22,10 @@ function SharingBoardDiv(props)
     const factLists = props.content.myFacts.map(function (n,i) { return (<li key={i}>{n}</li>)});
 
     const langAndFrame = props.content.langsAndFrame;
+    const tools = props.content.tools;
+    const tool = tools.map(function (n,i) { return <li key={i}>{n+" "}</li>
+
+    })
     const frontend = langAndFrame.frontend.map(function (n,i) { return n+" "});
     const languages = langAndFrame.languages.map(function (n,i) { return n+" "});
     const backend = langAndFrame.backend.map(function (n,i) { return n+" "});
@@ -30,6 +34,7 @@ function SharingBoardDiv(props)
     const os = langAndFrame.os.map(function (n,i) { return n+" "});
     const skillList = function(){ return <ul><li>Languages:{" "+languages}</li><li>Front-End:{" "+frontend}</li><li>Back-End:{" "+backend}</li>
         <li>Dtabase:{" "+database}</li><li>Cloud:{" "+cloud}</li><li>OS:{" "+os}</li></ul>}
+
 
     return (
         <div id="SharingBoard">
@@ -46,10 +51,7 @@ function SharingBoardDiv(props)
                 </div>
                 <div className="sharingboradlist">
                 <ul>
-                    <li>t</li>
-                    <li>t</li>
-                    <li>t</li>
-                    <li>t</li>
+                    {tool}
                 </ul>
                 </div>
 

@@ -164,9 +164,10 @@ a {
     background-image: -webkit-linear-gradient(#017CB8,#084363);
 }
 #SharingBoard{
-    height: 350px;
+    height: 400px;
     position: relative;
-    top: -55px;
+    top: -20px;
+    bottom: 20px;
     width: 100%;
 }
 .sharingboards {
@@ -189,7 +190,7 @@ a {
     font-family: 'Raleway', sans-serif;
     text-align: center;
     width: 28%;
-    height: 200px;
+    height: auto;
 
 }
 .sharingboards li {
