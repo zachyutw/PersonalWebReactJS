@@ -1,98 +1,226 @@
 {
-  "navigationBar":{
-    "brand":"Zach Website",
-    "naviLists": [{"text":"Home","url":"../public/index.html"},{"text":"About Me","url":"#introDiv"},{"text":"Introduce","url":"#introDiv"},{"text":"Sharing board","url":"#sharingboard"},{"text":"Portfolio","url":"#portfolio"},{"text":"Contact Me","url":"#footer"}],
-    "navObjs":{"t1":1,"t2":"ff","t3":"over"}
+  "navigationBar": {
+    "brand": "Zach Website",
+    "naviLists": [
+      {
+        "text": "Home",
+        "url": "../public/index.html"
+      },
+      {
+        "text": "About Me",
+        "url": "#introDiv"
+      },
+      {
+        "text": "Introduce",
+        "url": "#introDiv"
+      },
+      {
+        "text": "Sharing board",
+        "url": "#sharingboard"
+      },
+      {
+        "text": "Portfolio",
+        "url": "#portfolio"
+      },
+      {
+        "text": "Contact Me",
+        "url": "#footer"
+      }
+    ],
+    "navObjs": {
+      "t1": 1,
+      "t2": "ff",
+      "t3": "over"
+    }
   },
-  "cover" : {
+  "cover": {
     "title": "Who am I",
-    "subtitle": ["Junior Full Stack Developer","Desire for a new opportunity"],
+    "subtitle": [
+      "Junior Full Stack Developer",
+      "Desire for a new opportunity"
+    ],
     "btnStr": "LinkedIn",
     "btnUrl": "https://www.linkedin.com/in/yu-zach",
-    "bgUrl":["https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bicycles.jpeg","https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-4/htmlcss1-img_coffee-bgnd.jpeg","http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.png"],
-    "profileImg":"http://i.imgur.com/r4fRgzV.jpg"
+    "bgUrl": [
+      "https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bicycles.jpeg",
+      "https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-4/htmlcss1-img_coffee-bgnd.jpeg",
+      "http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.png"
+    ],
+    "profileImg": "http://i.imgur.com/r4fRgzV.jpg"
   },
   "introduce": {
     "title": "Small Talk",
     "paragraphs": [
-      "Hi! I 'm Zach Yu and I am a fresh Full Stack Developer who just graduated from BCIT computer program. My passion is to use technology based solutions, to help solve real world challenges. I love learning new stuff related to programming and technology.Coffee and Codes is my favirote, and I am very good at swimming and be a MCU nerd" ,
-      "I build a reactjs base personal website to promote myself"],
-    "btn":{"text":"< code >","url":"https://github.com/zachyutw"}
+      "Hi! I 'm Zach Yu and I am a fresh Full Stack Developer who just graduated from BCIT computer program. My passion is to use technology based solutions, to help solve real world challenges. I love learning new stuff related to programming and technology.Coffee and Codes is my favirote, and I am very good at swimming and be a MCU nerd",
+      "I build a reactjs base personal website to promote myself"
+    ],
+    "btn": {
+      "text": "< code >",
+      "url": "https://github.com/zachyutw"
+    }
   },
-  "sharing":{
-    "title":"Sharing Board",
-    "divContent":
-    [
+  "sharing": {
+    "title": "Sharing Board",
+    "divContent": [
       {
-        "title":"myFacts",
-        "categories":null,
-        "lists":["I can swim 3000m in 70 mins.","I drank more than 3 cup of coffess everyday.",
-      "Like to try new restaurants.","I am looking a new tennis partner.","I have read more than 700 mangas",
-      "I am a big MCU fans", "I like to play bridges"]},
-      {
-        "title":"langsAndFrame",
-        "categories":[
-          {"name":"languages", "lists":["Java","C#"]},{"name":"frontend","lists":["Html","CSS","SASS","JavaScript","ReactJS","JSP"]},{"name":"frontend","lists":["Html","CSS","SASS","JavaScript","ReactJS","JSP"]},
-          {"name":"backend","lists":["PHP","NodeJS"]},{"name":"database","lists":["MySQL","MangoDB","MS SQL"]},{"name":"cloud","lists":["AWS"," Firebase"]},{"name":"os","lists":["Linux","Mac","Windows"]}],
-        "lists":null
+        "title": "myFacts",
+        "categories": null,
+        "lists": [
+          "I can swim 3000m in 70 mins.",
+          "I drank more than 3 cup of coffess everyday.",
+          "Like to try new restaurants.",
+          "I am looking a new tennis partner.",
+          "I have read more than 700 mangas",
+          "I am a big MCU fans",
+          "I like to play bridges"
+        ]
       },
       {
-        "title":"tools",
-        "categories":null,
-        "lists":["Trello","Slack","Git","Github"]
-
-      }]
-  },
-  "portfolio":{
-    "title":"Portfolios",
-    "projects":[ {
-      "img":"https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bike7.png",
-      "title":"#WackoJSPInventorySys / #CITProject",
-      "desc":"Use MVC design to build a JSP web app",
-      "project":"https://github.com/zachyutw/WackoJsp",
-      "date": "2017/03"
-    },
+        "title": "langsAndFrame",
+        "categories": [
+          {
+            "name": "languages",
+            "lists": [
+              "Java",
+              "C#"
+            ]
+          },
+          {
+            "name": "frontend",
+            "lists": [
+              "Html",
+              "CSS",
+              "SASS",
+              "JavaScript",
+              "ReactJS",
+              "JSP"
+            ]
+          },
+          {
+            "name": "frontend",
+            "lists": [
+              "Html",
+              "CSS",
+              "SASS",
+              "JavaScript",
+              "ReactJS",
+              "JSP"
+            ]
+          },
+          {
+            "name": "backend",
+            "lists": [
+              "PHP",
+              "NodeJS"
+            ]
+          },
+          {
+            "name": "database",
+            "lists": [
+              "MySQL",
+              "MangoDB",
+              "MS SQL"
+            ]
+          },
+          {
+            "name": "cloud",
+            "lists": [
+              "AWS",
+              " Firebase"
+            ]
+          },
+          {
+            "name": "os",
+            "lists": [
+              "Linux",
+              "Mac",
+              "Windows"
+            ]
+          }
+        ],
+        "lists": null
+      },
       {
-        "img":"https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bike7.png",
-        "title":"#LefflerWebApp / #CITProject",
-        "desc":"Use Canvos and JavaScript to rebuild a flash web app",
-        "project":"https://github.com/zachyutw/LafflerSoftwareProject",
+        "title": "tools",
+        "categories": null,
+        "lists": [
+          "Trello",
+          "Slack",
+          "Git",
+          "Github"
+        ]
+      }
+    ]
+  },
+  "portfolio": {
+    "title": "Portfolios",
+    "projects": [
+      {
+        "img": "https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bike7.png",
+        "title": "#WackoJSPInventorySys / #CITProject",
+        "desc": "Use MVC design to build a JSP web app",
+        "project": "https://github.com/zachyutw/WackoJsp",
+        "date": "2017/03"
+      },
+      {
+        "img": "https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bike7.png",
+        "title": "#LefflerWebApp / #CITProject",
+        "desc": "Use Canvos and JavaScript to rebuild a flash web app",
+        "project": "https://github.com/zachyutw/LafflerSoftwareProject",
         "date": "2017/04"
       },
       {
-        "img":"https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bike7.png",
-        "title":"#LunchWithLaddyReactNativeApp / #CITProject",
-        "desc":"Use RESTFul and React-native to build a mobile-app prototype",
-        "project":"https://github.com/zachyutw/WackoJsp",
+        "img": "https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bike7.png",
+        "title": "#LunchWithLaddyReactNativeApp / #CITProject",
+        "desc": "Use RESTFul and React-native to build a mobile-app prototype",
+        "project": "https://github.com/zachyutw/WackoJsp",
         "date": "2017/03"
       },
       {
-        "img":"https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bike7.png",
-        "title":"#ReactJSPersonalWebsite / #codeJuly2017 /#v1",
-        "desc":"I am using ReactJS to rebuild front-end interface of my website , include css and html design",
-        "project":"https://github.com/zachyutw/WackoJsp",
+        "img": "https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bike7.png",
+        "title": "#ReactJSPersonalWebsite / #codeJuly2017 /#v1",
+        "desc": "I am using ReactJS to rebuild front-end interface of my website , include css and html design",
+        "project": "https://github.com/zachyutw/WackoJsp",
         "date": "2017/03"
       },
       {
-        "img":"https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bike7.png",
-        "title":"#ReactJSPersonalWebsite / #codeJuly2017 /#v1",
-        "desc":"I am using ReactJS to rebuild front-end interface of my website , include css and html design",
-        "project":"https://github.com/zachyutw/WackoJsp",
+        "img": "https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bike7.png",
+        "title": "#ReactJSPersonalWebsite / #codeJuly2017 /#v1",
+        "desc": "I am using ReactJS to rebuild front-end interface of my website , include css and html design",
+        "project": "https://github.com/zachyutw/WackoJsp",
         "date": "2017/03"
       },
       {
-        "img":"https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bike7.png",
-        "title":"#ReactJSPersonalWebsite / #codeJuly2017 /#v1",
-        "desc":"I am using ReactJS to rebuild front-end interface of my website , include css and html design",
-        "project":"https://github.com/zachyutw/WackoJsp",
+        "img": "https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bike7.png",
+        "title": "#ReactJSPersonalWebsite / #codeJuly2017 /#v1",
+        "desc": "I am using ReactJS to rebuild front-end interface of my website , include css and html design",
+        "project": "https://github.com/zachyutw/WackoJsp",
         "date": "2017/03"
-      }]
+      }
+    ]
   },
-  "footer":{
-    "contactInfo":{
-      "companyName":"",
-      "socialNetwork":[{"name":"LinkedIn","url":"www.linkedin.com/in/yu-zach","fa":"fa fa-linkedin-square fa-fw"},{"name":"Github","url":"https://github.com/zachyutw","fa":"fa fa-github-square fa-fw"},{"name":"Twitter","url":"https://twitter.com/ZachYuTW","fa":"fa fa-twitter-square fa-fw"}],
-      "phone":"6047606767",
-      "email":"zachyu.tw@gmail.com"}
+  "footer": {
+    "contactInfo": {
+      "companyName": "",
+      "socialNetwork": [
+        {
+          "name": "LinkedIn",
+          "url": "www.linkedin.com/in/yu-zach",
+          "fa": "fa fa-linkedin-square fa-fw"
+        },
+        {
+          "name": "Github",
+          "url": "https://github.com/zachyutw",
+          "fa": "fa fa-github-square fa-fw"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/ZachYuTW",
+          "fa": "fa fa-twitter-square fa-fw"
+        }
+      ],
+      "phone": "6047606767",
+      "email": "zachyu.tw@gmail.com"
+    }
   }
 }
