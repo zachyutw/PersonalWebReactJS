@@ -1,9 +1,9 @@
-
 body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
+
 .navigation {
     background-color: rgba(255, 255, 255, 0.9);
     overflow-y: auto;
@@ -11,14 +11,14 @@ body {
     left: 0;
     top: 0;
     text-align: center;
-    width: 100%;
+    width:100%;
     z-index: 10000;
 }
 .navigation li {
     color: #14213D;
     display: inline-block;
     font-family: 'Abel', sans-serif;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 300;
     margin: 16px 20px;
     text-transform: uppercase;
@@ -27,71 +27,50 @@ body {
     color: #14213D;
     display: inline-block;
     font-family: 'Abel', sans-serif;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 300;
     margin: 16px 20px;
     text-transform: uppercase;
 }
 .navigation li a:hover {
     color: #dddddd;
-    font-size: 20px;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 #cover {
-    background:url("./img/portfolio-2.jpg") no-repeat center bottom;
+    background:url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bicycles.jpeg") no-repeat center bottom;
     height: 900px;
     position: relative;
-    top: -55px;
-    width: 100%;
+
     background-size:cover;
     background-attachment:fixed;
 }
 .cover-content {
-    box-sizing: border-box;
-    margin: 0 auto;
-    position: relative;
+
     text-align: center;
     top: 280px;
-    width: 70%;
+
 }
-
-
-ul {
-    padding: 0;
-}
-
-li {
-    color: #14213D;
-    display: inline-block;
-    font-family: 'Abel', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    margin: 16px 20px;
-    text-transform: uppercase;
-}
-
-#logo {
-    color: #FCA311;
+.cover-content h1 {
+    color: #FFF;
     font-family: 'Amatic SC', cursive;
-    font-size: 32px;
-    padding: 0px 50px;
-}
-
-#introDiv{
-    height: 350px;
-    position: relative;
-    top: -55px;
-    width: 100%;
-}
-
-.intro-content {
-    box-sizing: border-box;
-    margin: 0 auto;
-    position: relative;
+    font-size: 72px;
+    line-height: 60px;
+    padding: 20px 10px;
     text-align: center;
-    width: 50%;
+}
+.cover-content h2 {
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 42px;
+    font-weight: 300;
+    text-align: center;
 }
 
+.show-grid {
+    border: 5px solid black;
+}
 .profileImg {
     background:url("./img/File_000.jpeg") no-repeat center top;
     background-size:cover;
@@ -103,151 +82,131 @@ li {
     width: 150px;
     height: 150px;
 }
-.cover-content h1 {
-    color: #FFF;
+
+#introDiv{
+
+    position: relative;
+}
+.intro-content {
+
+
+    position: relative;
+    text-align: center;
+}
+.intro-content h1 {
+    color: black;
     font-family: 'Amatic SC', cursive;
     font-size: 72px;
     line-height: 60px;
     padding: 20px 10px;
     text-align: center;
 }
-
-.cover-content h2 {
-    color: #444444;
-    font-family: 'Raleway', sans-serif;
-    font-size: 42px;
-    font-weight: 300;
-    text-align: center;
-}
-
-.intro-content h1 {
-    color: #333333;
-    font-family: 'Amatic SC', cursive;
-    font-size: 60px;
-    line-height: 60px;
-    padding: 20px 10px;
-    text-align: center;
-}
-
-h3 {
-    color: #14213D;
-    font-family: 'Abel', sans-serif;
-    font-size: 28px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-h4 {
-    color: #FCA311;
-    font-family: 'Abel', sans-serif;
-    font-size: 24px;
-    margin: 0px 0px 50px 0px;
-}
-
-p {
+.intro-content p {
     color: #333;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     font-weight: 300;
+    text-align: left;
 }
 
-a {
-    text-decoration: none;
-}
+#sharingboard{
 
-.btn {
-    background-color: #14213D;
-    color: #FFF;
-    font-family: 'Amatic SC', cursive;
-    font-size: 26px;
-    padding: 14px;
-    background-image: -webkit-linear-gradient(#017CB8,#084363);
-}
-#SharingBoard{
-    height: 400px;
     position: relative;
-    top: -20px;
+    top: 10px;
     bottom: 20px;
-    width: 100%;
+
 }
-.sharingboards {
+.sharingboard-content {
 
     box-sizing: border-box;
     margin: 0 auto;
     position: relative;
-    text-align: center;
-    width: 100%;
+    text-align: left;
 
 }
-
-.sharingboards .sharingboradlist {
-    border: 5px solid black;
-    display: inline-block;
-    margin: 0px 2% 5px 2%;
-    text-align: center;
-    float: left;
-
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    width: 28%;
-    height: auto;
-
+.sharingboard-content ul
+{
+    list-style-type: none;
 }
-.sharingboards li {
-    font-weight: 400;
-    font-size: 14px;
+
+.sharingboard-content ul li {
+
+    font-family: 'Abel', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
     line-height: 15px;
     padding: 0;
     margin-bottom: 10px;
 }
-.sharingboards img {
+.sharingboard-content img {
     height: 32px;
 }
 
-.sharingboards h2 {
+.sharingboard-content h1 {
+    color: black;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 60px;
+    padding: 20px 10px;
+    text-align: center;
+}
+.sharingboard-content h2 {
     font-weight: 600;
     font-size: 23px;
     text-transform: uppercase;
 }
-.products {
+.sharingboard-content h3{
+    color: #14213D;
+    font-family: 'Abel', sans-serif;
+    font-size: 16px;
+
+    margin: 10px 0px 10px 30px;
+}
+
+
+
+#portfolio{
     background: #EEEFF1;
     box-sizing: border-box;
-    margin: 0 auto;
+    text-align: center;
+    top: 20px;
+    position: relative;
+}
+.projects {
+    background: #FFF;
+    box-sizing: border-box;
     position: relative;
     text-align: center;
-    width: 100%;
-    top: 20px;
-
+    padding:20px;
 }
-
-.product {
-
+.project {
     box-sizing: border-box;
     margin: 0 auto;
-
     text-align: center;
-    width: 33%;
 }
-.product p{
-    top: 10px;
-    text-align: center;
+.project p{
+    font-size: 10px;
+    text-align: left;
     margin: 10px 0px 10px 0px;
 }
-.product h3{
+.project h3{
     color: #14213D;
     font-family: 'Abel', sans-serif;
     font-size: 12px;
     text-align: center;
     text-transform: uppercase;
-    margin: 10px 0px 50px 0px;
+    margin: 10px 0px 5px 0px;
+    padding:2px;
 }
-.product h4 {
+.project h4 {
     color: #FCA311;
     font-family: 'Abel', sans-serif;
     font-size: 15px;
     margin: 0px 0px 20px 0px;
+    padding:2px;
 }
-.product .btn {
+.project .btn {
     background-color: #14213D;
     color: #FFF;
     font-family: 'Amatic SC', cursive;
@@ -255,13 +214,64 @@ a {
     padding: 8px 15px 8px 15px;
     background-image: -webkit-linear-gradient(#FFD194,#BC1324);
 }
-.product img {
-    width:100%;
+
+#footer{
+    background: #444444;
+    box-sizing: border-box;
+    text-align: center;
+    top:20px;
+    position: relative;
 
 }
-
-.blue {
-    color: #14213D !important;
+.footer-content {
+    font-size:45px;
+    padding: 20px;
+}
+.leftFooter {
+    font-size:20px;
+    padding: 20px;
+    text-align: left;
+}
+.leftFooter span {
+    color:white;
+}
+#footer .footer-content a {
+    color:white;
 }
 
+.ghost-button {
+    display: inline-block;
+    width: 200px;
+    padding: 8px;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+}
+.ghost-button:hover,
+.ghost-button:active {
+    background-color: #fff;
+    color: #000;
+}
+.ghost-button-rounded-corners {
+    display: inline-block;
+    width: 200px;
+    padding: 8px;
+    color: #000;
 
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 26px;
+    background-color: rgba(255, 255, 255, 0.7);
+    outline: none;
+    text-decoration: none;
+
+}
+.ghost-button-rounded-corners:hover,
+.ghost-button-rounded-corners:active {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #fff;
+}
