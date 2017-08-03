@@ -36,9 +36,6 @@ const PortfolioDiv = function ({content}) {
                     <h3>{project.title}</h3>
                     <p>{project.desc}</p>
                     <h4>{project.date}</h4>
-
-                    <Button bsStyle="primary" href={project.project}>Link</Button>
-
                 </Thumbnail>
             </Col>)
 

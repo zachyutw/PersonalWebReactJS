@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3bb67e53-5124-4f5c-bd1c-6fc94a9d47f5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Data.json" afterPath="$PROJECT_DIR$/src/Data.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index_t.css" afterPath="$PROJECT_DIR$/src/index_t.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/componments/PortfolioDiv.js" afterPath="$PROJECT_DIR$/src/componments/PortfolioDiv.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -62,18 +61,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FooterDiv.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/componments/FooterDiv.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="e#47#73#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CoverDiv.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/componments/CoverDiv.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -84,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PortfolioDiv.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PortfolioDiv.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/componments/PortfolioDiv.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+            <state relative-caret-position="273">
+              <caret line="37" column="43" lean-forward="false" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
               <folding>
                 <element signature="e#47#93#0" expanded="false" />
                 <element signature="e#94#140#0" expanded="false" />
@@ -98,7 +85,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Data.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ZYLists.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/componments/ZYLists.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Data.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Data.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="199">
@@ -111,8 +108,8 @@
       <file leaf-file-name="SharingDiv.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/componments/SharingDiv.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="37" selection-end-column="26" />
+            <state relative-caret-position="300">
+              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding>
                 <element signature="e#1#27#0" expanded="true" />
               </folding>
@@ -198,7 +195,6 @@
         <option value="$PROJECT_DIR$/src/componmentsBackupV01/SharingBoardDiv.js" />
         <option value="$PROJECT_DIR$/src/componmentsBackupV01/index_t.css" />
         <option value="$PROJECT_DIR$/src/componments/SharingDiv.js" />
-        <option value="$PROJECT_DIR$/src/componments/PortfolioDiv.js" />
         <option value="$PROJECT_DIR$/src/componments/ZYLists.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/componments/FooterDiv.js" />
@@ -209,6 +205,7 @@
         <option value="$PROJECT_DIR$/CNAME" />
         <option value="$PROJECT_DIR$/src/index_t.css" />
         <option value="$PROJECT_DIR$/src/Data.json" />
+        <option value="$PROJECT_DIR$/src/componments/PortfolioDiv.js" />
       </list>
     </option>
   </component>
@@ -426,12 +423,12 @@
       <workItem from="1499749086787" duration="70407000" />
       <workItem from="1501449708104" duration="18638000" />
       <workItem from="1501559757771" duration="41773000" />
-      <workItem from="1501725935321" duration="6195000" />
+      <workItem from="1501725935321" duration="6668000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137013000" />
+    <option name="totallyTimeSpent" value="137486000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -744,16 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/componments/ZYLists.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#47#73#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/componments/IntroDiv.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -820,18 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/componments/PortfolioDiv.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-          <folding>
-            <element signature="e#47#93#0" expanded="false" />
-            <element signature="e#94#140#0" expanded="false" />
-            <element signature="e#141#187#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index_t.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
@@ -846,21 +821,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="168" column="23" lean-forward="true" selection-start-line="168" selection-start-column="23" selection-end-line="168" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/componments/ZYLists.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/componments/SharingDiv.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="37" selection-end-column="26" />
+        <state relative-caret-position="300">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
             <element signature="e#1#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Data.json">
+    <entry file="file://$PROJECT_DIR$/src/componments/PortfolioDiv.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="168" column="23" lean-forward="true" selection-start-line="168" selection-start-column="23" selection-end-line="168" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="273">
+          <caret line="37" column="43" lean-forward="false" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+          <folding>
+            <element signature="e#47#93#0" expanded="false" />
+            <element signature="e#94#140#0" expanded="false" />
+            <element signature="e#141#187#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
